@@ -1,0 +1,9 @@
+{
+  "name": "edisonlee55-network-website",
+  "version": "1.0.0",
+  "description": "edisonlee55 Network Web",
+  "main": "index.js",
+  "repository": "https://github.com/edisonlee55/network.edisonlee55.com.git",
+  "author": "Edison Lee <edisonlee@edisonlee55.com>",
+  "license": "MIT"
+}
