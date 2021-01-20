@@ -31,7 +31,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#peering"><i class="fas fa-project-diagram"></i> Peering Policy</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#peering"><i class="fas fa-project-diagram"></i> Peering Details</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact"><i class="far fa-question-circle"></i> Contact</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#staff"><i class="far fa-heart"></i> Staff</a></li>
                         <li class="nav-item">
@@ -59,7 +59,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h1 class="text-white mb-4"><i class="fas fa-project-diagram"></i> Peering Policy</h1>
+                        <h1 class="text-white mb-4"><i class="fas fa-project-diagram"></i> Peering Details</h1>
                         <br>
                         <div class="card py-4">
                             <h2>Network Info</h2>
@@ -77,9 +77,26 @@
                         </div>
                         <br><br>
                         <div class="card py-4">
-                            <h2>Policy</h2>
-                            <br>
-                            <p>TBD...</p>
+                            <h2>Peering Policy</h2>
+                            <hr>
+                            <div class="text-left">
+                                <p style="margin-left: 15px; margin-right: 15px;">edisonlee55 maintains an open peering policy and does not require a signed contract.</p>
+                                <ul style="margin-right: 15px;">
+                                    <li>Must have a public and routable ASN.</li>
+                                    <li>Must have an up-to-date <a href="https://www.peeringdb.com">PeeringDB</a> entry, including a valid NOC contact.</li>
+                                    <li>Must maintain valid and up-to-date IRR objects (mnt, aut-num, as-set, route, route6...) in RIR routing registry, <a href="https://www.radb.net">RADB</a>, or a <a href="https://www.radb.net/support/mirrored_irrs.html">RADB-mirrored IRR</a>.</li>
+                                    <li>Must maintain at least one or more "as-set" IRR objects containing a list of ASNs intended to be advertised, which are used to generate prefix filters.</li>
+                                    <li>Peering partners should implement industry standard practices and best common practices, including but not limited to BCP-38 (Anti-Spoofing) and route filtering (IRR, RPKI).</li>
+                                    <li>Accept IXP, tunnel, and physical peering.</li>
+                                    <li>No SLAs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="card py-4">
+                            <h2>Locations</h2>
+                            <hr>
+                            <p>Our POPs present in <strong>Japan (Tokyo)</strong> / <strong>Germany (Frankfurt)</strong>.<br>Contact us for more details.</p>
                         </div>
                     </div>
                 </div>
